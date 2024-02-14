@@ -10,9 +10,9 @@ steps:
 - uses: actions/checkout@v2
 
 - name: Run a one-line script
-   run: echo Hello, world!
+   run:echo hi
 
 - name: Run a multi-line script
-   run: | 
+   run:| 
     echo add other actions to build
     echo test and deploy your project.
